@@ -1,0 +1,73 @@
+{
+    "custom/arch": {
+        "format": "󰣇",
+        "tooltip": false,
+	"on-click": "rofi -show drun -theme /home/$USER/.config/rofi/config.rasi"
+    },
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{name}"
+    },
+    "pulseaudio": {
+	"tooltip": false,
+        "format": "{icon}  {volume}%",
+        "format-bluetooth": "{icon} {volume}%  {format_source}",
+        "format-bluetooth-muted": "󰖁 {icon} {format_source}",
+        "format-muted": "󰝟 {format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "󰋋",
+            "hands-free": "",
+            "headset": "󰋎",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["󰕿", "󰖀", "󰕾"]
+        },
+        "on-click": "pavucontrol"
+    },
+    "network": {
+        "tooltip": false,
+        "format-wifi": "󰖩  {essid} ({signalStrength}%)",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "󰖪  Disconnected ",
+	"format-disabled": "󰖪  Wifi Turned Off ",
+	"on-click": "sh /home/$USER/.scripts/wifi_menu.sh"	 
+    },
+    
+    "hyprland/language": {
+       "format": "  {}",
+       "format-en": "EN",
+       "format-pl": "PL",
+       "format-uk": "UA",
+       "format-ru": "RU"
+    },
+    "battery": {
+	"bat": "BAT1",
+        "states": {
+            "warning": 20,
+            "critical": 5
+        },
+        "tooltip": false,
+        "format": "{icon}  {capacity}%",
+        "format-charging": "⚡ {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+	"interval": 1
+    },
+    "clock": {
+        "format": "{:%H:%M:%S | %e %B} ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}",
+	"interval": 1
+    },
+    "custom/power_menu": {
+        "tooltip": false,
+        "format": " ",
+	"on-click": "sh /home/$USER/.scripts/power_menu.sh"
+    }
+
+}
