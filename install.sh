@@ -125,6 +125,7 @@ cd ./../
 
 			#CONFIGS
 
+chmod +x ./.scripts/*
 USER_HOME=$(getent passwd "$SUDO_USER" | cut -d: -f6)
 cp -R ./.config/ "$USER_HOME/"
 cp -R ./.themes/ "$USER_HOME/"
