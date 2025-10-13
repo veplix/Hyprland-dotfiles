@@ -1,3 +1,4 @@
 <div align="center">
-veplix's hyprland-dotfiles
+<h1>veplix's hyprland-dotfiles</h1>h1>
+  
 </div>
