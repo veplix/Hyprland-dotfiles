@@ -6,4 +6,5 @@
 <div align="center">
   Showcase
   <img src="https://github.com/veplix/Hyprland-dotfiles/blob/main/screenshots/preview.jpg">
+  <h3></h3>
 </div>
