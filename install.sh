@@ -120,7 +120,7 @@ paru -S firefox telegram-desktop rofi waybar nemo alacritty grim slurp neovim sw
 cd ./grub/
 sudo chmod +x install.sh
 sudo ./install.sh -t vimix
-cd ./
+cd ./../
 
 
 			#CONFIGS
