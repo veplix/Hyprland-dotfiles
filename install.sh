@@ -19,27 +19,15 @@ pacman -Sy
 
 			#PARU INSTALLATION
 
-# Check for root privileges
-if [[ $EUID -ne 0 ]]; then
-    echo "Please run this script as root or with sudo."
-    exit 1
-fi
-
-# Update system and install base-devel and git if not present
 pacman -Syu --noconfirm
 pacman -S --needed base-devel git --noconfirm
 
-# Clone paru AUR repository
-cd /tmp || exit
 git clone https://aur.archlinux.org/paru.git
 cd paru || exit
 
-# Build and install paru package
 makepkg -si --noconfirm
 
-# Clean up
 cd ..
-rm -rf paru
 
 
 			#GPU DRIVERS
@@ -132,7 +120,7 @@ paru -S firefox telegram-desktop rofi waybar nemo alacritty grim slurp neovim sw
 cd ./grub/
 sudo chmod +x install.sh
 sudo ./install.sh -t vimix
-cd ../
+cd ./
 
 
 			#CONFIGS
