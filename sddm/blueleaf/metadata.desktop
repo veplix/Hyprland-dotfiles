@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=greenleaf
+Description=GreenLeaf theme for SDDM
+Author=kamack38
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=1.0
+Website=https://github.com/greenleaf/sddm-greenleaf-theme
+Screenshot=Previews/preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=greenleaf
+Theme-API=2.0
+QtVersion=6
