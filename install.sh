@@ -124,12 +124,14 @@ cd ./../
 
 
 			#CONFIGS
-cp -R ./.config/ /home/$USER/
-cp -R ./.themes/ /home/$USER/ 
-cp -R ./.icons/ /home/$USER/
-cp -R ./.scripts/ /home/$USER/
-cp -R ./.oh-my-zsh/ /home/$USER/
-cp ./.zshrc /home/$USER/
-cp -R ./.qbittorrent-themes/ /home/$USER/
-cp -R ./.vlc-skins /home/$USER/
+
+USER_HOME=$(getent passwd "$SUDO_USER" | cut -d: -f6)
+cp -R ./.config/ "$USER_HOME/"
+cp -R ./.themes/ "$USER_HOME/"
+cp -R ./.icons/ "$USER_HOME/"
+cp -R ./.scripts/ "$USER_HOME/"
+cp -R ./.oh-my-zsh/ "$USER_HOME/"
+cp ./.zshrc "$USER_HOME/"
+cp -R ./.qbittorrent-themes/ "$USER_HOME/"
+cp -R ./.vlc-skins "$USER_HOME/"
 sudo cp -R ./sddm/blueleaf /usr/share/sddm/themes/
