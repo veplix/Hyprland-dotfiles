@@ -129,9 +129,10 @@ paru -S firefox telegram-desktop rofi waybar nemo alacritty grim slurp neovim sw
 
 			#GRUB THEME
 
-cd ./sddm/blueleaf/
+cd ./grub/
+sudo chmod +x install.sh
 sudo ./install.sh -t vimix
-cd ../../
+cd ../
 
 
 			#CONFIGS
@@ -140,7 +141,7 @@ cp -R ./.themes/ /home/$USER/
 cp -R ./.icons/ /home/$USER/
 cp -R ./.scripts/ /home/$USER/
 cp -R ./.oh-my-zsh/ /home/$USER/
-cp ./zshrc /home/$USER/
-cp -R ./.qbittorent-themes/ /home/$USER/
+cp ./.zshrc /home/$USER/
+cp -R ./.qbittorrent-themes/ /home/$USER/
 cp -R ./.vlc-skins /home/$USER/
-cp -R ./sddm/blueleaf /usr/share/sddm/themes/
+sudo cp -R ./sddm/blueleaf /usr/share/sddm/themes/
