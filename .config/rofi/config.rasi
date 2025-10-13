@@ -1,2 +1,1 @@
-
-@theme "/home/veplix/.config/rofi/themes/Nordic.rasi"
+@theme "/home/$USER/.config/rofi/themes/Nordic.rasi"
