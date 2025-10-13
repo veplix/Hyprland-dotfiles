@@ -135,12 +135,12 @@ cd ../../
 
 
 			#CONFIGS
-cp -R .config/ /home/$USER/
-cp -R .themes/ /home/$USER/ 
-cp -R .icons/ /home/$USER/
-cp -R .scripts/ /home/$USER/
-cp -R .oh-my-zsh/ /home/$USER/
-cp zshrc /home/$USER/
-cp -R .qbittorent-themes/ /home/$USER/
-cp -R .vlc-skins /home/$USER/
-cp -R sddm/blueleaf /usr/share/sddm/themes/
+cp -R ./.config/ /home/$USER/
+cp -R ./.themes/ /home/$USER/ 
+cp -R ./.icons/ /home/$USER/
+cp -R ./.scripts/ /home/$USER/
+cp -R ./.oh-my-zsh/ /home/$USER/
+cp ./zshrc /home/$USER/
+cp -R ./.qbittorent-themes/ /home/$USER/
+cp -R ./.vlc-skins /home/$USER/
+cp -R ./sddm/blueleaf /usr/share/sddm/themes/
