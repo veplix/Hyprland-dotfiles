@@ -36,7 +36,7 @@
     > [!CAUTION]
     > Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password
     
-    <details>
+  <details>
       <summary>Screenshots (Rofi, Power Menu, Wi-fi Menu and Wallpaper Changer)</summary>
         <details>
           <summary>Rofi</summary>
