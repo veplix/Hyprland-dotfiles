@@ -64,50 +64,47 @@ esac
 
 
 			#ZSH INSTALLATION
-paru -S --needed --noconfirm zsh
 
-# Set Zsh as default shell
-if [ "$SHELL" != "/bin/zsh" ]; then
-    echo "Setting Zsh as default shell..."
-    chsh -s /bin/zsh
+if ! command -v zsh >/dev/null 2>&1; then
+  if [ -x "$(command -v apt)" ]; then
+    sudo apt update && sudo apt install -y zsh git curl
+  elif [ -x "$(command -v dnf)" ]; then
+    sudo dnf install -y zsh git curl
+  elif [ -x "$(command -v pacman)" ]; then
+    sudo pacman -Sy --noconfirm zsh git curl
+  else
+    echo "❌ Unknown command."
+    exit 1
+  fi
+else
+  echo "✅ Zsh already installed."
 fi
 
-# Install Oh My Zsh if not installed
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
-    echo "Installing Oh My Zsh..."
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+  RUNZSH=no KEEP_ZSHRC=yes \
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+else
+  echo "✅ Oh My Zsh already installed."
 fi
 
-# Install Powerlevel10k theme
-if [ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k" ]; then
-    echo "Installing Powerlevel10k theme..."
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
-        "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+ZSH_CUSTOM="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"
+if [ ! -d "$ZSH_CUSTOM/themes/powerlevel10k" ]; then
+  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
+    "$ZSH_CUSTOM/themes/powerlevel10k"
+else
+  echo "✅ Powerlevel10k already installed."
 fi
 
-# Install zsh-autosuggestions plugin
-if [ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]; then
-    echo "Installing zsh-autosuggestions plugin..."
-    git clone https://github.com/zsh-users/zsh-autosuggestions \
-        "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
+if grep -q '^ZSH_THEME=' "$HOME/.zshrc"; then
+  sed -i 's|^ZSH_THEME=.*|ZSH_THEME="powerlevel10k/powerlevel10k"|' "$HOME/.zshrc"
+else
+  echo 'ZSH_THEME="powerlevel10k/powerlevel10k"' >> "$HOME/.zshrc"
 fi
 
-# Install zsh-syntax-highlighting plugin
-if [ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting" ]; then
-    echo "Installing zsh-syntax-highlighting plugin..."
-    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
-        "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting"
+if [ "$SHELL" != "$(which zsh)" ]; then
+  chsh -s "$(which zsh)"
 fi
 
-# Configure .zshrc
-ZSHRC="$HOME/.zshrc"
-if ! grep -q "powerlevel10k/powerlevel10k" "$ZSHRC"; then
-    sed -i 's/^ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' "$ZSHRC"
-fi
-
-if ! grep -q "zsh-autosuggestions" "$ZSHRC"; then
-    sed -i 's/^plugins=(\(.*\))/plugins=(\1 zsh-autosuggestions zsh-syntax-highlighting)/' "$ZSHRC"
-fi
 
 
 			#DEPENDENCIES
