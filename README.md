@@ -62,3 +62,9 @@
 
 ## Keybinds
 
+
+| Bind | Action |
+|----------|----------|
+| Super+T | Open terminal (alacritty) |
+| Super+E | Open browser (Firefox) |
+| 
