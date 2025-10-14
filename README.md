@@ -39,7 +39,7 @@
   </details>
   
   <details>
-    <summary>&nbsp;Wallpaper Changer</summary>
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;Wallpaper Changer</summary>
     <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wallpapers_Changer.jpg">
   </details>
 </details>
