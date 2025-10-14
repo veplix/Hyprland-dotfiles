@@ -54,7 +54,8 @@
 <details>
   <summary><strong>NeoVim</strong></summary>
   <p>Neovim is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions with plugin support.<br>
-  Added alias-"sudo nvim=nvim"(through oh-my-zsh) now you dont need write everytime sudo, just nvim /path/to/file<br>
+  Added alias-"sudo -E nvim=nvim"(through oh-my-zsh) now you dont need write everytime sudo, just nvim /path/to/file<br>
   Contains also plugins for autosuggestion/autocompletition (~/.config.nvim/lua/plugins/autosuggestion.lua): cmp-nvim-lsp, cmp-bufer, cmp-path, cmp-cmdline, cmp_luasnip, LuaSnip, friendly-snippets, lspkind-nvim<br>
   Plugin managerfor nvim:Lazy</p>
+  <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/nvim.jpg">
 </details>
