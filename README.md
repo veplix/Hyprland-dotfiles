@@ -74,7 +74,7 @@
   > [!NOTE]
   > Added alias-`sudo -E nvim=nvim`(through oh-my-zsh) now you dont need write everytime sudo, just
 > ```bash
-> nvim /path/to/file```
+> nvim /path/to/file
 
   > [!TIP]
   > Contains also plugins for autosuggestion/autocompletition `~/.config.nvim/lua/plugins/autosuggestion.lua`: `cmp-nvim-lsp`, `cmp-bufer`, `cmp-path`, `cmp-cmdline`, `cmp_luasnip`, `LuaSnip`, `friendly-snippets`, `lspkind-nvim` which you can modify by yourself
