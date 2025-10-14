@@ -46,3 +46,11 @@
   <p>Nemo is a free and open-source software and official file manager of the Cinnamon desktop environment. It is a fork of GNOME Files (formerly named Nautilus). (Im using this instead of Thunar because nemo fixes some issues that i had in Thunar)</p>
   <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/nemo.jpg">
 </details>
+
+<details>
+  <summary><strong>NeoVim</strong></summary>
+  <p>Neovim is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions with plugin support.<br>
+  Was added alias-"sudo nvim=nvim" now you dont need write everytime sudo, just nvim /path/to/file<br>
+  Contains also plugins for autosuggestion/autocompletition (~/.config.nvim/lua/plugins/autosuggestion.lua): cmp-nvim-lsp, cmp-bufer, cmp-path, cmp-cmdline, cmp_luasnip, LuaSnip, friendly-snippets, lspkind-nvim<br>
+  Plugin managerfor nvim:Lazy</p>
+</details>
