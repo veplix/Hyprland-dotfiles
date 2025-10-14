@@ -14,11 +14,13 @@
 <details>
   <summary><strong>Alacritty</strong></summary>
   <p>Simple, GPU-accelerated terminal emulator written in Rust. It supports scrollback, 24-bit colors, copy/paste, clicking on URLs, and custom key bindings</p>
+  <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/alacritty.jpg">
 </details>
 
 <details>
   <summary><strong>Waybar</strong></summary>
   <p>Highly customizable Wayland bar for Sway and Wlroots based compositors.</p>
+  <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Waybar.png">
 </details>
 
 <details>
