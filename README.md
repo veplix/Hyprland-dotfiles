@@ -32,25 +32,25 @@
 
   <p>Rofi: A window switcher, application launcher and dmenu replacement. On rofi written my custom scripts: "Power Menu", "Wi-fi Menu" and "Wallpaper Changer". All of those scripts are situated in ʼʼʼ/main/.sciptsʼʼʼ or ~/.scripts after install.<br>
     Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password
-  <details>
-    <summary>Screenshots ("Power Menu", "Wi-fi Menu" and "Wallpaper Changer")</summary>
-      <details>
-        <summary>Rofi</summary>
-  <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/rofi.jpg"></p>
-      </details>
-      <details>
-        <summary>Power Menu</summary>
-        <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Power_Menu.jpg">
-      </details>
-      <details>
-        <summary>Wi-fi Menu</summary>
-        <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wi-fi_Menu.jpg">
-      </details>
-      <details>
-        <summary>Wallpaper Changer</summary>
-        <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wallpapers_Changer.jpg">
-      </details>
-</details>
+    <details>
+      <summary>Screenshots ("Power Menu", "Wi-fi Menu" and "Wallpaper Changer")</summary>
+        <details>
+          <summary>Rofi</summary>
+          <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/rofi.jpg"></p>
+        </details>
+        <details>
+          <summary>Power Menu</summary>
+          <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Power_Menu.jpg">
+        </details>
+        <details>
+          <summary>Wi-fi Menu</summary>
+          <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wi-fi_Menu.jpg">
+        </details>
+        <details>
+          <summary>Wallpaper Changer</summary>
+          <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wallpapers_Changer.jpg">
+        </details>
+    </details>
 
 <details>
   <summary><strong>Nemo</strong> (file manager)</summary>
