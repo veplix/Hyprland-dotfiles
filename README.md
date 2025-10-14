@@ -41,8 +41,9 @@ Rofi: A window switcher, application launcher and dmenu replacement. On rofi wri
 ~/.scripts
 ```
 after install.
+
 > [!IMPORTANT]
-> > Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password
+> Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password
 
   <details>
     <summary>Screenshots (Rofi, Power Menu, Wi-fi Menu and Wallpaper Changer)</summary>
