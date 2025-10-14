@@ -136,5 +136,6 @@ cp ./.zshrc "$USER_HOME/"
 cp -R ./.wallpapers/ "$USER_HOME/"
 cp -R ./.qbittorrent-themes/ "$USER_HOME/"
 cp -R ./.vlc-skins "$USER_HOME/"
+sudo cp ./sddm/sddm.conf /etc/
 sudo cp -R ./sddm/blueleaf /usr/share/sddm/themes/
 chown -R "$SUDO_USER:$SUDO_USER" "$USER_HOME"/.{config,themes,icons,scripts,oh-my-zsh,zshrc,wallpapers,qbittorrent-themes,vlc-skins}
