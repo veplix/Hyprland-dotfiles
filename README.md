@@ -34,7 +34,7 @@
 
 ### Rofi
 
-  Rofi: A window switcher, application launcher and dmenu replacement. On rofi written my custom scripts: "Power Menu", "Wi-fi Menu" and "Wallpaper Changer". All of those scripts are situated in `/main/.scipts` or ```bash ~/.scripts ``` after install.
+  Rofi: A window switcher, application launcher and dmenu replacement. On rofi written my custom scripts: "Power Menu", "Wi-fi Menu" and "Wallpaper Changer". All of those scripts are situated in `/main/.scipts` or `~/.scripts` after install.
   
   > [!IMPORTANT]
   > Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password
@@ -72,7 +72,9 @@
   Neovim is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions with plugin support.
   
   > [!NOTE]
-  > Added alias-`sudo -E nvim=nvim`(through oh-my-zsh) now you dont need write everytime sudo, just `nvim /path/to/file`
+  > Added alias-`sudo -E nvim=nvim`(through oh-my-zsh) now you dont need write everytime sudo, just
+> ```bash
+> nvim /path/to/file```
 
   > [!TIP]
   > Contains also plugins for autosuggestion/autocompletition `~/.config.nvim/lua/plugins/autosuggestion.lua`: `cmp-nvim-lsp`, `cmp-bufer`, `cmp-path`, `cmp-cmdline`, `cmp_luasnip`, `LuaSnip`, `friendly-snippets`, `lspkind-nvim` which you can modify by yourself
