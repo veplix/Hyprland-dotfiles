@@ -17,7 +17,7 @@
 </details>
 
 <details>
-  <summary>Waybar</summary>
+  <summary><h3>Waybar</h3></summary>
   <p>Highly customizable Wayland bar for Sway and Wlroots based compositors.</p>
 </details>
 
