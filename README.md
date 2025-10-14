@@ -9,7 +9,7 @@
   <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/preview.jpg">
 </div>
 
-## Main Features
+## Main Features, programs that will be used
 
 <details>
   <summary><strong>Alacritty</strong></summary>
