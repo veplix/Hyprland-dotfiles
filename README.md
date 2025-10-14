@@ -39,15 +39,15 @@
   <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/rofi.jpg"></p>
       </details>
       <details>
-        <summary>&nbsp;&nbsp;&nbsp;&nbsp;Power Menu</summary>
+        <summary>Power Menu</summary>
         <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Power_Menu.jpg">
       </details>
       <details>
-        <summary>&nbsp;&nbsp;&nbsp;&nbsp;Wi-fi Menu</summary>
+        <summary>Wi-fi Menu</summary>
         <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wi-fi_Menu.jpg">
       </details>
       <details>
-        <summary>&nbsp;&nbsp;&nbsp;&nbsp;Wallpaper Changer</summary>
+        <summary>Wallpaper Changer</summary>
         <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wallpapers_Changer.jpg">
       </details>
 </details>
