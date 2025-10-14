@@ -13,7 +13,8 @@
 
 <details>
   <summary><strong>Alacritty</strong></summary>
-  <p>Simple, GPU-accelerated terminal emulator written in Rust. It supports scrollback, 24-bit colors, copy/paste, clicking on URLs, and custom key bindings</p>
+  <p>Simple, GPU-accelerated terminal emulator written in Rust. It supports scrollback, 24-bit colors, copy/paste, clicking on URLs, and custom key bindings<br>
+  In rice used zsh shell and +oh-my-zsh with theme powerlevel10k and plugins</p>
   <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/alacritty.jpg">
 </details>
 
@@ -53,7 +54,7 @@
 <details>
   <summary><strong>NeoVim</strong></summary>
   <p>Neovim is a Vim-based text editor engineered for extensibility and usability, to encourage new applications and contributions with plugin support.<br>
-  Was added alias-"sudo nvim=nvim" now you dont need write everytime sudo, just nvim /path/to/file<br>
+  Added alias-"sudo nvim=nvim"(through oh-my-zsh) now you dont need write everytime sudo, just nvim /path/to/file<br>
   Contains also plugins for autosuggestion/autocompletition (~/.config.nvim/lua/plugins/autosuggestion.lua): cmp-nvim-lsp, cmp-bufer, cmp-path, cmp-cmdline, cmp_luasnip, LuaSnip, friendly-snippets, lspkind-nvim<br>
   Plugin managerfor nvim:Lazy</p>
 </details>
