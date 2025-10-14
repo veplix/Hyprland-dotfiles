@@ -61,10 +61,4 @@
 </details>
 
 ## Keybinds
-
-
-| Bind | Action |
-|----------|----------|
-| Super+T | Open terminal (alacritty) |
-| Super+E | Open browser (Firefox) |
-| 
+- Keybinds [CLICK]:(https://github.com/veplix/Hyprland-dotfiles/wiki/Keybinds)
