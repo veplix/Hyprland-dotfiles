@@ -34,7 +34,7 @@
 
 ### Rofi
 
-  Rofi: A window switcher, application launcher and dmenu replacement. On rofi written my custom scripts: "Power Menu", "Wi-fi Menu" and "Wallpaper Changer". All of those scripts are situated in `/main/.scipts` or ``` bash ~/.scripts``` after install.
+  Rofi: A window switcher, application launcher and dmenu replacement. On rofi written my custom scripts: "Power Menu", "Wi-fi Menu" and "Wallpaper Changer". All of those scripts are situated in `/main/.scipts` or ```bash ~/.scripts ``` after install.
   
   > [!IMPORTANT]
   > Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password
