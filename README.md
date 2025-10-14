@@ -34,7 +34,7 @@
     Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password
     <details>
     <summary>Screenshots ("Power Menu", "Wi-fi Menu" and "Wallpaper Changer")</summary>
-      Rofi
+      <p>Rofi</p>
   <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/rofi.jpg"></p>
   <details>
     <summary>&nbsp;&nbsp;&nbsp;&nbsp;Power Menu</summary>
