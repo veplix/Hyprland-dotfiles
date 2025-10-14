@@ -13,14 +13,13 @@
 
 ### Alacritty
 
-<div>
   <p>Simple, GPU-accelerated terminal emulator written in Rust. It supports scrollback, 24-bit colors, copy/paste, clicking on URLs, and custom key bindings<br>
   In rice used zsh shell and +oh-my-zsh with theme powerlevel10k and plugins</p>
   <details>
     <summary>Screenshot</summary>
     <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/alacritty.jpg">
   </details>
-</div>
+
 
 ### Waybar
 
