@@ -34,7 +34,11 @@
 
 ### Rofi
 
-  Rofi: A window switcher, application launcher and dmenu replacement. On rofi written my custom scripts: "Power Menu", "Wi-fi Menu" and "Wallpaper Changer". All of those scripts are situated in `/main/.scipts` or `~/.scripts` after install.
+  Rofi: A window switcher, application launcher and dmenu replacement. On rofi written my custom scripts: "Power Menu", "Wi-fi Menu" and "Wallpaper Changer". All of those scripts are situated in `/Hyprland-dotfiles/.scipts` or
+```
+~/.scripts
+```
+after install.
   
   > [!IMPORTANT]
   > Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password
@@ -73,11 +77,16 @@
   
   > [!NOTE]
   > Added alias-`sudo -E nvim=nvim`(through oh-my-zsh) now you dont need write everytime sudo, just
-> ```bash
+> ```
 > nvim /path/to/file
 
   > [!TIP]
-  > Contains also plugins for autosuggestion/autocompletition `~/.config.nvim/lua/plugins/autosuggestion.lua`: `cmp-nvim-lsp`, `cmp-bufer`, `cmp-path`, `cmp-cmdline`, `cmp_luasnip`, `LuaSnip`, `friendly-snippets`, `lspkind-nvim` which you can modify by yourself
+  > Contains also plugins for autosuggestion/autocompletition in
+>
+> ```
+> ~/.config.nvim/lua/plugins/autosuggestion.lua
+> ```
+>`cmp-nvim-lsp`, `cmp-bufer`, `cmp-path`, `cmp-cmdline`, `cmp_luasnip`, `LuaSnip`, `friendly-snippets`, `lspkind-nvim` which you can modify by yourself
 
   > [!IMPORTANT]
   > Plugin manager for nvim:Lazy
