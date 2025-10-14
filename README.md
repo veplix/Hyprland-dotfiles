@@ -9,10 +9,10 @@
   <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/preview.jpg">
 </div>
 
-### Main Features
+## Main Features
 
 <details>
-  <summary>Alacritty</summary>
+  <summary><h3>Alacritty</h3></summary>
   Simple, GPU-accelerated terminal emulator written in Rust. It supports scrollback, 24-bit colors, copy/paste, clicking on URLs, and custom key bindings
 </details>
 
@@ -25,7 +25,7 @@
    <summary>Rofi</summary>
   Rofi: A window switcher, application launcher and dmenu replacement. On rofi written my custom scripts: "Power Menu", "Wi-fi Menu" and "Wallpaper Changer". All of those scripts are situated in /main/.scipts or ~/.scripts after install. Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password
   <details>
-    <summary><h3>Power Menu</h3></summary>
+    <summary><h4>Power Menu</h4></summary>
     <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Power_Menu.jpg">
   </details>
 </details>
