@@ -9,7 +9,7 @@
   <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/preview.jpg">
 </div>
 
-## Main Features, programs that will be used
+## Main Features
 
 <details>
   <summary><strong>Alacritty</strong></summary>
@@ -29,12 +29,20 @@
     <summary>Power Menu</summary>
     <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Power_Menu.jpg">
   </details>
+  
   <details>
     <summary>Wi-fi Menu</summary>
     <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wi-fi_Menu.jpg">
   </details>
+  
   <details>
     <summary>Wallpaper Changer</summary>
     <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wallpapers_Changer.jpg">
   </details>
+</details>
+
+<details>
+  <summary>Nemo (file manager)</summary>
+  <p>Nemo is a free and open-source software and official file manager of the Cinnamon desktop environment. It is a fork of GNOME Files (formerly named Nautilus). (Im using this instead of Thunar because nemo fixes some issues that i had in Thunar)</p>
+  <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/nemo.jpg">
 </details>
