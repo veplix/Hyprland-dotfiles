@@ -12,12 +12,12 @@
 ## Main Features
 
 <details>
-  <summary><h3>Alacritty</h3></summary>
+  <summary><strong>Alacritty</strong></summary>
   <p>Simple, GPU-accelerated terminal emulator written in Rust. It supports scrollback, 24-bit colors, copy/paste, clicking on URLs, and custom key bindings</p>
 </details>
 
 <details>
-  <summary><h3>Waybar</h3></summary>
+  <summary><strong>Waybar</strong></summary>
   <p>Highly customizable Wayland bar for Sway and Wlroots based compositors.</p>
 </details>
 
