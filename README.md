@@ -29,17 +29,17 @@
     Unfortunately you need to run "Wallpapers Changer" manually because for changing wallpapers for sddm theme needed sudo+password<br>
   <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/rofi.jpg"></p>
   <details>
-    <summary>Power Menu</summary>
+    <summary>&nbsp;Power Menu</summary>
     <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Power_Menu.jpg">
   </details>
   
   <details>
-    <summary>Wi-fi Menu</summary>
+    <summary>&nbsp;Wi-fi Menu</summary>
     <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wi-fi_Menu.jpg">
   </details>
   
   <details>
-    <summary>Wallpaper Changer</summary>
+    <summary>&nbsp;Wallpaper Changer</summary>
     <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/Wallpapers_Changer.jpg">
   </details>
 </details>
