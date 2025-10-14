@@ -100,5 +100,28 @@ Neovim is a Vim-based text editor engineered for extensibility and usability, to
 ## Keybinds
 - Keybinds [`CLICK`]:(https://github.com/veplix/Hyprland-dotfiles/wiki/Keybinds)
 
-## Install
+## Installation
+First you need install git package for cloning dots in your direcrory
+```
+sudo pacman -S git
+```
+Then clone Hyprland-dotfiles in your directory
+```
+git clone https://github.com/veplix/Hyprland-dotfiles.git
+```
+Do a cd in Hyprland-dotfiles
+```
+cd Hyprland-dotfiles
+```
+Give rights to execute install.sh script
+```
+chmod +x install.sh
+```
+And finally you can run install.sh
 
+> [!IMPORTANT]
+> Run the script with sudo
+
+```
+sudo ./install.sh
+```
