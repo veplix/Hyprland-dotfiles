@@ -42,7 +42,7 @@
 </details>
 
 <details>
-  <summary>Nemo (file manager)</summary>
+  <summary><strong>Nemo</strong> (file manager)</summary>
   <p>Nemo is a free and open-source software and official file manager of the Cinnamon desktop environment. It is a fork of GNOME Files (formerly named Nautilus). (Im using this instead of Thunar because nemo fixes some issues that i had in Thunar)</p>
   <img src="https://raw.githubusercontent.com/veplix/Hyprland-dotfiles/refs/heads/main/screenshots/nemo.jpg">
 </details>
