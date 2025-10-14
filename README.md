@@ -3,7 +3,9 @@
 </div>
 
 <div align="center">
-  Showcase
+  
+  ## Showcase
+  
   <img src="https://github.com/veplix/Hyprland-dotfiles/blob/main/screenshots/preview.jpg">
 </div>
 
