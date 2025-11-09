@@ -97,7 +97,7 @@ Neovim is a Vim-based text editor engineered for extensibility and usability, to
 > [!IMPORTANT]
 > Plugin manager for nvim:Lazy
 
-## Keybinds
+## ⌨ Keybinds ⌨
 - Keybinds [`CLICK`](https://github.com/veplix/Hyprland-dotfiles/wiki/Keybinds)
 
 ## Installation
